@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import data.DataFactory
-import list.ExampleAdapter
+import com.example.myapplication.data.DataFactory
+import com.example.myapplication.list.ExampleAdapter
 
 
 class MainActivity : AppCompatActivity() {

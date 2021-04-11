@@ -1,4 +1,4 @@
-package data
+package com.example.myapplication.data
 
 import com.example.myapplication.R
 

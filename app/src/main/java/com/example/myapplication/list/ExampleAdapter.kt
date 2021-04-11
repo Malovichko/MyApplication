@@ -1,10 +1,10 @@
-package list
+package com.example.myapplication.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
-import data.StaffModel
+import com.example.myapplication.data.StaffModel
 
 class ExampleAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

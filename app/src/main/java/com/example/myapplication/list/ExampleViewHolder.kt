@@ -1,4 +1,4 @@
-package list
+package com.example.myapplication.list
 
 import android.view.View
 import android.widget.ImageView
@@ -6,12 +6,12 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
-import data.StaffModel
+import com.example.myapplication.data.StaffModel
 
-class BottomViewHolder constructor(private val staffView: View) :
+class ExampleViewHolder constructor(private val staffView: View) :
     RecyclerView.ViewHolder(staffView) {
 
-    private lateinit var icon: ImageView
+    private lateinit var icon:ImageView
     private lateinit var textName: TextView
     private lateinit var textPrice: TextView
 
